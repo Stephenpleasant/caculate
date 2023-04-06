@@ -6,35 +6,28 @@
   
   body {
     background-color: #3a4764;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
   }
   
-  .container {
+  .cal-container {
     width: 400px;
-    margin-top: 50px;
   }
   
-  .showcase {
+  .show-case {
     color: #eae3dc;
   }
-  .selector{
+  .theme-selector{
     display: flex;
   }
-  .theme{
+  .theme-slide{
     margin-left: 200px;
     display: flex;
+    justify-content: space-around;
   }
-  .sele{
-    margin-left: 40px;
-  }
-  .label{
-    margin-left: 12px;
-  }
+  
   .showcase nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -50,25 +43,25 @@
   .showcase .up{
     position: relative;
     left: 13px; 
-
-
+  }
+  .label{
+    justify-content: space-around;
   }
   .swipe{
-    width: 50px;
-    height: 20px;
+    display: flex;
     justify-content: flex-start;
-    border-radius: 6px;
-    background-color: #182034;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom:6px ;
-  }
+    width: 70px;
+    height: 55%;
+    
+    border-radius: 20px;
+    background-color: hsl(223, 31%, 20%);
+}
   .swipe .control{
     position: relative;
     display: inline-flex;
     border-radius: 50px;
-    width: 10px;
-    height: 50%;
+    width: 15px;
+    height: 80%;
     background-color: #d03f2f;
   }
 
@@ -238,4 +231,4 @@
     background-color: #d03f2f;
     border-color: #d03f2f;
   }
-  /*# sourceMappingURL=style.css.map */
+  
